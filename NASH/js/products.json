@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"title": "PUHOVIK",
+		"price": 8990,
+		"imgSrc": "kurtka.jpg"
+	},
+	{
+		"id": 2,
+		"title": "ZIP-HOODIE",
+		"price": 2450,
+		"imgSrc": "zip.jpg"
+	},
+	{
+		"id": 3,
+		"title": "SHARF",
+		"price": 990,
+		"imgSrc": "sharf.jpg"
+	},
+	{
+		"id": 4,
+		"title": "SHAPKA",
+		"price": 569,
+		"imgSrc": "shapka.jpg"
+	}
+]

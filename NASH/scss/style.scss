@@ -1,0 +1,94 @@
+gtco-footer {
+	background: lighten($brand-black, 15%);
+	padding: 7em 0 0 0!important;	
+	margin-bottom: 0!important;
+	width: 100%;
+	float: left;
+	a {
+		&:hover {
+			color: $brand-white!important;
+		}
+	}
+	
+	.gtco-cta {
+		margin-bottom: 30px;
+		h3 {
+			color: $brand-white;
+			font-size: 30px;
+			font-weight: 300;
+		}
+		.btn-white {
+			padding: 15px 20px!important;
+			&.btn-outline {
+				&:hover {
+					color: $brand-black!important;
+				}
+			}
+		}
+	}
+
+	.gtco-footer-paragraph {
+		h3 {
+			color: $brand-white;
+			margin-bottom: 10px;
+		}
+	}
+
+	.gtco-footer-link {
+		h3 {
+			color: $brand-white;
+			margin-bottom: 10px;
+		}
+		padding-left: 30px;
+		@media screen and (max-width: $screen-sm) {
+			padding-left: 15px;
+		}
+		.gtco-list-link {
+			padding: 0;
+			margin: 0;
+			li {
+
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				a {
+					text-transform: uppercase;
+					font-size: 13px!important;
+					font-family: $font-primary;
+				}
+			}
+		}
+	}
+	.gtco-footer-subscribe {
+		padding-left: 30px;
+		@media screen and (max-width: $screen-sm) {
+			padding-left: 15px;
+		}
+		.form-control {
+			background: $brand-white!important;
+			border: none!important;
+		}
+		.btn {
+			margin-top: 4px;
+			@include border-radius(4px);
+			height: 54px!important;
+			line-height: 1.5;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 10px!important;
+			padding-right: 10px!important;
+		}
+	}
+	.gtco-copyright {
+		background: lighten($brand-black, 10%);
+		padding: 30px 0;
+		float: left;
+		width: 100%;
+		p {
+			font-family: $font-primary;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
